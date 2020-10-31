@@ -5,7 +5,7 @@ from rest_framework.pagination import BasePagination, LimitOffsetPagination, Pag
 
 from .serializers import *
 
-from box.core.sw_model_search.lib import model_search
+from sw_utils.sw_model_search.lib import model_search
 
 
 class StandardPageNumberPagination(PageNumberPagination):
