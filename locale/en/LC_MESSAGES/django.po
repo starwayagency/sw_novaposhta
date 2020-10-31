@@ -1,0 +1,94 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-03 09:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: box/apps/sw_delivery/sw_novaposhta/__init__.py:8
+msgid "Nova poshta"
+msgstr ""
+
+#: box/apps/sw_delivery/sw_novaposhta/models.py:6
+#: box/apps/sw_delivery/sw_novaposhta/models.py:30
+#: box/apps/sw_delivery/sw_novaposhta/models.py:49
+#: box/apps/sw_delivery/sw_novaposhta/models.py:67
+#: box/apps/sw_delivery/sw_novaposhta/models.py:84
+msgid "Title"
+msgstr ""
+
+#: box/apps/sw_delivery/sw_novaposhta/models.py:7
+msgid "Address"
+msgstr ""
+
+#: box/apps/sw_delivery/sw_novaposhta/models.py:25
+msgid "Warehouse"
+msgstr ""
+
+#: box/apps/sw_delivery/sw_novaposhta/models.py:26
+msgid "Warehouses"
+msgstr ""
+
+#: box/apps/sw_delivery/sw_novaposhta/models.py:43
+msgid "Область"
+msgstr ""
+
+#: box/apps/sw_delivery/sw_novaposhta/models.py:44
+msgid "Області"
+msgstr ""
+
+#: box/apps/sw_delivery/sw_novaposhta/models.py:50
+msgid "Area"
+msgstr ""
+
+#: box/apps/sw_delivery/sw_novaposhta/models.py:62
+msgid "район"
+msgstr ""
+
+#: box/apps/sw_delivery/sw_novaposhta/models.py:63
+msgid "райони"
+msgstr ""
+
+#: box/apps/sw_delivery/sw_novaposhta/models.py:79
+msgid "Тип населеного пункту"
+msgstr ""
+
+#: box/apps/sw_delivery/sw_novaposhta/models.py:80
+msgid "Типи населених пунктів"
+msgstr ""
+
+#: box/apps/sw_delivery/sw_novaposhta/models.py:86
+msgid "Type"
+msgstr ""
+
+#: box/apps/sw_delivery/sw_novaposhta/models.py:87
+msgid "latitude"
+msgstr ""
+
+#: box/apps/sw_delivery/sw_novaposhta/models.py:88
+msgid "longitude"
+msgstr ""
+
+#: box/apps/sw_delivery/sw_novaposhta/models.py:89
+msgid "Region"
+msgstr ""
+
+#: box/apps/sw_delivery/sw_novaposhta/models.py:110
+msgid "населений пункт"
+msgstr ""
+
+#: box/apps/sw_delivery/sw_novaposhta/models.py:111
+msgid "населені пункти"
+msgstr ""
