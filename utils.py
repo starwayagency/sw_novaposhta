@@ -4,7 +4,7 @@ import requests
 from django.conf import settings
 from django.http import JsonResponse
 
-from sw_utils.sw_model_search import model_search
+from sw_model_search import model_search
 
 from .settings import NOVA_POSHTA_API_KEY
 from .models import *
