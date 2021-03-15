@@ -20,7 +20,7 @@ def handle_np(query={}, action='refresh', content='warehouses', type='from_json'
         method   = 'getWarehouses'
         model    = "AddressGeneral"
         message  = 'Warehouses were successfully refreshed'
-        filename = 'warehouses.json'
+        filename = '../warehouses.json'
         func     = create_warehouses
     elif content == 'settlements':
         method   = 'getSettlements'
