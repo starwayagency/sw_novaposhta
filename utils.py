@@ -99,8 +99,9 @@ def get_full_response(modelName, calledMethod, limit=150, page=1, pages_limit=No
 def create_warehouses(response):
     Warehouse.objects.all().delete()
     warehouses = []
-    for item in response.get('data'):
-        print(item)
+    data = response.get('data')
+    for index, item in enumerate(data):
+        print(f'{index} of {len(data)}')
         params = {
             'title': item.get('Description'),
             'address': item.get('CityDescription')
@@ -126,11 +127,13 @@ def create_settlements(response):
     Area.objects.all().delete()
     Region.objects.all().delete()
     Type.objects.all().delete()
-    for item in response['data']:
-        print(item)
-        print('index:', response['data'].index(item))
-        print()
-        print()
+    data = response['data']
+    for index, item in enumerate(data):
+        print(f'{index} of {len(data)}')
+        # print(item)
+        # print('index:', response['data'].index(item))
+        # print()
+        # print()
         latitude  = item.get('Latitude')
         longitude = item.get('Longitude')
         title     = item.get('Description')
